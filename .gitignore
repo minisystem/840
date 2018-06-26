@@ -1,0 +1,7 @@
+#.gitignore
+#ignore this bullshit
+
+shapes3D/
+*.wrl
+_autosave*
+*RenumBack*
