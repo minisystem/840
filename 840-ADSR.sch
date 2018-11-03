@@ -589,10 +589,8 @@ F 3 "~" H 7975 6575 60  0000 C CNN
 	1    7975 6575
 	1    0    0    -1  
 $EndComp
-Text Notes 4625 5475 0    60   ~ 0
-**adust R to get threshold of 10V
-Text Notes 5325 6275 0    60   ~ 0
-*\nADJUST R7/R8 with T1/T2 \nto get 20-25 s max A/D/R\n
+Text Notes 5500 5725 0    60   ~ 0
+*ADJUST R7/R8 with T1/T2 \n to get 20-25 s max A/D/R\n
 $Comp
 L C_US C10
 U 1 1 5B292690
@@ -1135,7 +1133,7 @@ L R_US R1
 U 1 1 5B2971B1
 P 15100 2700
 F 0 "R1" V 15180 2700 50  0000 C CNN
-F 1 "1K" V 15020 2700 50  0000 C CNN
+F 1 "220" V 15020 2700 50  0000 C CNN
 F 2 "MyModules:SM0603-R-YAGEO" H 15850 2850 60  0000 C CNN
 F 3 "~" H 15100 2700 60  0000 C CNN
 	1    15100 2700
@@ -2399,4 +2397,12 @@ F 3 "" H 5225 4775 60  0000 C CNN
 	1    5225 4775
 	-1   0    0    -1  
 $EndComp
+Text Notes 5700 6800 0    60   ~ 0
+A B\n0 0 Decay/Sustain\n0 1 Release\n1 0 Attack\n1 1 Release\n
+Text Notes 5625 7675 0    60   ~ 0
+DECAY/RELEASE TRIM\nNECESSARY?
+Text Notes 10100 4175 0    60   ~ 0
+use 10V reference here?
+Text Notes 15350 3700 0    60   ~ 0
+buffer this?
 $EndSCHEMATC
